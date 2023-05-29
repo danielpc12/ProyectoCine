@@ -1,0 +1,71 @@
+body {
+	background: #333;
+	font-family: Arial, sans-serif;
+}
+
+.contenedor {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 100px;
+	background: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.titulo {
+	text-align: center;
+	color: #333;
+}
+
+.formulario {
+	margin-top: 20px;
+}
+
+.label-email, .label-password {
+	display: block;
+	margin-bottom: 5px;
+	color: #666;
+}
+
+.input-email, .input-password {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: none;
+	background: #f9f9f9;
+	color: #333;
+	border-radius: 3px;
+}
+
+.boton {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	background: #ff3366;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: background 0.3s ease;
+}
+
+.boton:hover {
+	background: #ff1144;
+}
+
+.texto-registrate {
+	margin-top: 10px;
+	text-align: center;
+	color: #666;
+}
+
+.enlace-registrate {
+	color: #ff3366;
+	text-decoration: none;
+}
+
+.enlace-registrate:hover {
+	text-decoration: underline;
+}

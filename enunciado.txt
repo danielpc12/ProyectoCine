@@ -1,0 +1,8 @@
+Empresa de cine necesita una pagina de inicio de sesion y de registrar usuario
+
+1. al iniciar sesion se debe redirigir a la pagina "HOME" donde se mostrará el logo del cine
+2. En HOME deben mostrarse las 6 peliculas que se presentan actualmente
+3. al hacer click en cada imagen debe redirigir a un html nuevo con el nombre de esta
+4. cada html debe tener la informacion de la pelicula en una tabla 
+5. se debe agregar el video del trailes de la pelicula
+6. debe haber posibilidad de retornar a la pagina HOME

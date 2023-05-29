@@ -1,0 +1,75 @@
+body {
+	background: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.center-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+	max-width: 60%;
+	max-height: 80%;
+	box-shadow: #fff;
+}
+
+.fila {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	flex-basis: 100%;
+}
+
+.pelicula {
+	position: relative;
+	margin: 0 10px;
+	width: 200px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.nombre {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 700;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+.pelicula:hover .nombre {
+	opacity: 1;
+}
+
+.pelicula:hover img {
+	transform: scale(1.1);
+	filter: brightness(50%);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: cover;
+	transition: transform 0.5s ease, filter 0.5s ease;
+}
